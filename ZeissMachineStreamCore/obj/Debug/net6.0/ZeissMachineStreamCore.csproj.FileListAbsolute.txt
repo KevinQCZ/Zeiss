@@ -1,0 +1,12 @@
+G:\development\Zeiss\ZeissMachineStreamCore\bin\Debug\net6.0\ZeissMachineStreamCore.deps.json
+G:\development\Zeiss\ZeissMachineStreamCore\bin\Debug\net6.0\ZeissMachineStreamCore.dll
+G:\development\Zeiss\ZeissMachineStreamCore\bin\Debug\net6.0\ZeissMachineStreamCore.pdb
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\ZeissMachineStreamCore.csproj.AssemblyReference.cache
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\ZeissMachineStreamCore.GeneratedMSBuildEditorConfig.editorconfig
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\ZeissMachineStreamCore.AssemblyInfoInputs.cache
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\ZeissMachineStreamCore.AssemblyInfo.cs
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\ZeissMachineStreamCore.csproj.CoreCompileInputs.cache
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\ZeissMachineStreamCore.dll
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\refint\ZeissMachineStreamCore.dll
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\ZeissMachineStreamCore.pdb
+G:\development\Zeiss\ZeissMachineStreamCore\obj\Debug\net6.0\ref\ZeissMachineStreamCore.dll

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZeissMachineStream</name>
+    </assembly>
+    <members>
+        <member name="M:ZeissMachineStream.Controllers.EventsController.GetByFilters(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Get the events applying the filters passed in query string (Optional)
+            </summary>
+            <param name="filters">Optional. The available filter to apply. Check GetFilterSpecs for more info.</param>
+            <returns>The list of the events with the applied filters</returns>
+            <response code="200">The list is retrieved correctly applying the filters</response>
+            <response code="400">The filters passed in query string are not formatted correctly</response>
+            <response code="404">No events available for the provided filters</response>
+            <response code="500">Server error or the service is currently unavailable</response>
+        </member>
+        <member name="M:ZeissMachineStream.Controllers.EventsController.GetById(System.String)">
+            <summary>
+            Fetch the event corresponding to the id passed as URL parameter
+            </summary>
+            <param name="id">The id of the event</param>
+            <returns></returns>
+            <response code="200">The event corresponding to the id passed as URL parameter</response>
+            <response code="404">The event for the specified id is not found or is been deleted</response>
+            <response code="500">Server error or the service is currently unavailable</response>
+        </member>
+        <member name="T:ZeissMachineStream.Models.BaseModel">
+            <summary>
+            The base api response model, it contains only the Params object that
+            represent the params used in the call
+            </summary>
+        </member>
+        <member name="P:ZeissMachineStream.Models.BaseModel.Params">
+            <summary>
+            Optional object to identity the params used in the call
+            </summary>
+        </member>
+        <member name="T:ZeissMachineStream.Models.ResponseModel">
+            <summary>
+            This is the Model of API Response
+            Extend the status of API Response if needed
+            </summary>
+        </member>
+        <member name="T:ZeissMachineStream.Models.ResponseModel.ApiServerErrorModel">
+            <summary>
+            Model used to identify the 5xx series errors
+            </summary>
+        </member>
+        <member name="P:ZeissMachineStream.Models.ResponseModel.ApiServerErrorModel.ServerErrors">
+            <summary>
+            Describe the Server errors of the call
+            </summary>
+        </member>
+        <member name="T:ZeissMachineStream.Models.ResponseModel.ApiBadRequestModel">
+            <summary>
+            Model used to identify the 400 errors
+            </summary>
+        </member>
+        <member name="P:ZeissMachineStream.Models.ResponseModel.ApiBadRequestModel.BadRequestReasons">
+            <summary>
+            Describe the reasons to mark the request as BadRequest
+            </summary>
+        </member>
+        <member name="T:ZeissMachineStream.Models.ResponseModel.ApiNotFoundModel">
+            <summary>
+            Model used to identify the 404 errors
+            </summary>
+        </member>
+        <member name="P:ZeissMachineStream.Models.ResponseModel.ApiNotFoundModel.NotFoundReasons">
+            <summary>
+            Describe the NotFound reasons of the call
+            </summary>
+        </member>
+    </members>
+</doc>
